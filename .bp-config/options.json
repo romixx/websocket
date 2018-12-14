@@ -1,0 +1,6 @@
+{
+    "PHP_MODULES": ["cli"],
+    "PHP_EXTENSIONS":["bz2","zlib","curl","mcrypt"],
+    "ADDITIONAL_PREPROCESS_CMDS": ["php app/htdocs/socket.php migrations"],
+    "APP_START_CMD":["php app/htdocs/socket.php"]
+}
